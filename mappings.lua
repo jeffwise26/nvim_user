@@ -24,5 +24,7 @@ return {
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    -- leave terminal with escape, navigate up one
+    ["<esc>"] = "<Cmd>wincmd k<CR>"
   },
 }
